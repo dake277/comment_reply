@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import CommentPage from "./components/comment-page/commentPage";
+import RelayPage from "./components/relay-page/relayPage";
+import {CommentContext} from "./context";
+import {useEffect, useState} from "react";
 function App() {
+  const [commentList, setCommentList] = useState([])
+  let commentStr = localStorage.getItem('commentArr')
+  let commentJSON = JSON.parse(commentStr)
+
+
+  useEffect(() =>{
+    if(commentJSON !== null){
+      setCommentList(commentJSON)
+    }
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CommentContext.Provider value={{commentList, setCommentList}}>
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <CommentPage/>
+          </Route>
+          <Route path="/reply">
+            <RelayPage/>
+          </Route>
+        </Switch>
+      </Router>
+    </CommentContext.Provider>
   );
 }
 

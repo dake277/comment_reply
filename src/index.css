@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  /*margin: 0;*/
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +7,94 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.App {
+    display: block;
+    text-align: center;
+    text-align: -webkit-center
+}
+
+a:link{
+    color: #000000;
+    text-decoration: none;
+}
+a:visited{
+    color: #828282;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+table{
+
+}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+td{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10pt;
+    color: #828282;
+}
+p{
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+.fatitem{
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+    margin-top: 20px;
+}
+.hnmain{
+
+}
+span.comhead{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 8pt;
+    color: #828282;
+}
+.comment{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 9pt;
+}
+.c00{
+    color: #000000;
+}
+.none{
+    display: none;
+}
+.pageTop{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10pt;
+    color: #222222;
+    line-height: 20px;
+    margin-left: 20px;
+}
+.replyComment{
+    margin-left: 20px;
+}
+.tdReply{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.AddComment{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    /*margin-left: 100px;*/
 }
