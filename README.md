@@ -9,9 +9,9 @@
 
 ## 截图
 
-<img src="https://github.com/dake277/products-trading-platform/blob/master/images/index.png" alt="image" width="275" height="300" />
-<img src="https://github.com/dake277/products-trading-platform/blob/master/images/cart.png" alt="image" width="250" height="350" />
-<img src="https://github.com/dake277/products-trading-platform/blob/master/images/detail.png" alt="image" width="250" height="350" />
+<img src="https://github.com/dake277/comment_reply/blob/master/images/2022-05-19%20210420.png" alt="image" width="275" height="300" />
+<img src="https://github.com/dake277/comment_reply/blob/master/images/2022-05-19%20210554.png" alt="image" width="250" height="350" />
+<img src="https://github.com/dake277/comment_reply/blob/master/images/202022-05-19%20210650.png" alt="image" width="250" height="350" />
 
 In the project directory, you can run:
 
