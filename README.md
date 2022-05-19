@@ -9,8 +9,8 @@
 
 ## 截图
 
-<img src="https://github.com/dake277/comment_reply/blob/master/images/2022-05-19%20210420.png" alt="image" width="500" height="700" />
-<img src="https://github.com/dake277/comment_reply/blob/master/images/2022-05-19%20210554.png" alt="image" width="500" height="500" />
-<img src="https://github.com/dake277/comment_reply/blob/master/images/2022-05-19%20210650.png" alt="image" width="500" height="400" />
+<img src="https://github.com/dake277/comment_reply/blob/master/images/2022-05-19%20210420.png" alt="image" width="550" height="500" />
+<img src="https://github.com/dake277/comment_reply/blob/master/images/2022-05-19%20210554.png" alt="image" width="550" height="500" />
+<img src="https://github.com/dake277/comment_reply/blob/master/images/2022-05-19%20210650.png" alt="image" width="550" height="200" />
 
 
