@@ -17,7 +17,7 @@ export default function ReplyComment({item}){
         <span className="comhead"> {formatDateTime(item.time)} </span>
         <span className="comhead"> | next </span>
         <span className="comhead">
-          <a href="#!" onClick={handleShow}>{`${isShow? '[–]':'[1 more]'} `}</a>
+          <a href="#/" onClick={handleShow}>{`${isShow? '[–]':'[1 more]'} `}</a>
         </span>
       </div>
       <div className= {`comment ${isShow ? '': 'none'}`}>

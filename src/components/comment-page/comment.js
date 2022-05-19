@@ -19,7 +19,7 @@ export default function Comment({item, handleShow, handleShowFoldId}){
         <span className="comhead"> {formatDateTime(item.time)} </span>
         <span className="comhead"> | next </span>
         <span className="comhead">
-          <a href="#!" onClick={handleFold}>{`${show? '[–]':'[more]'} `}</a>
+          <a href="#/" onClick={handleFold}>{`${show? '[–]':'[more]'} `}</a>
         </span>
       </div>
       <div className= {`comment ${show ? '': 'none'}`}>
